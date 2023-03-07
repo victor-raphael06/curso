@@ -1,0 +1,13 @@
+(isso cria um bando de dados e tabela dentro dos bancos de dados)
+
+create database pintor
+
+CREATE TABLE pintor (
+    nome VARCHAR(30),
+    cpf CHAR(11)
+);
+
+CREATE TABLE pintura (
+    local CHAR(4),
+    nome VARCHAR(30)
+);
