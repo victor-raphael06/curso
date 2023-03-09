@@ -1,0 +1,57 @@
+html{
+    background-image: linear-gradient(purple, pink);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ 
+#perfil_foto {
+    width: 70px;
+    height: 70px;
+    border-radius: 7%;
+    top:0;
+    padding: 1px;
+    background-color: black
+
+}
+
+#perfil_foto:hover{
+    background-color:#3333;
+    opacity: 0.5;
+}
+
+h1{
+    font-family: 'Abril Fatface';
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+li a:hover{
+    background-color:rgb(69, 0, 69);    
+    color: #ffffff;
+    opacity: 1.0;
+}
